@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toktips - Thực hành AI nâng cao hiệu suất</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --text: #334155;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text);
+            background-color: var(--light);
+        }
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: -3rem auto 2rem;
+            padding: 0 1rem;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .tag {
+            background: #dbeafe;
+            color: var(--primary);
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        h2 { color: var(--dark); margin-top: 1rem; }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        footer { text-align: center; padding: 2rem; color: #94a3b8; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Toktips: AI for Productivity</h1>
+    <p>Tài liệu thực hành và hướng dẫn tối ưu hóa công việc bằng Trí tuệ nhân tạo</p>
+</header>
+
+<div class="container">
+    <div class="card-grid">
+        <div class="card">
+            <span class="tag">Prompt Engineering</span>
+            <h2>Kỹ thuật Prompt chuyên sâu</h2>
+            <p>Hướng dẫn cách đặt câu lệnh để AI lập kế hoạch đào tạo và soạn thảo tài liệu kỹ thuật chuẩn xác cho doanh nghiệp.</p>
+            <a href="#" class="btn">Bắt đầu học →</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">Data AI</span>
+            <h2>AI trong Phân tích dữ liệu</h2>
+            <p>Ứng dụng Copilot và ChatGPT trong việc xử lý file Excel lớn, viết truy vấn SQL và tạo dashboard báo cáo tự động.</p>
+            <a href="#" class="btn">Xem hướng dẫn →</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">Local AI</span>
+            <h2>Triển khai AI nội bộ</h2>
+            <p>Hướng dẫn cài đặt Ollama và sử dụng các mô hình ngôn ngữ lớn (LLM) offline để bảo mật dữ liệu cho tổ chức.</p>
+            <a href="#" class="btn">Khám phá ngay →</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Trần Thu Giang | Chuyên gia Đào tạo IT & Chuyển đổi số</p>
+</footer>
+
+</body>
+</html>
